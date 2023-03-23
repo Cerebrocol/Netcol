@@ -1,1 +1,152 @@
-Nrw
+{
+    "Version": "1.0.1",
+    "ReleaseNotes": "¡Nueva actualización disponible!🧩 \nESTÁ PROHIBIDO EL INICIO DE SESIÓN MÚLTIPLE. \n MANTÉN LA APLICACIÓN SIEMPRE ACTUALIZADA 🏆\nusted está conectado y no le funciona correctamente, comuníquese con servicio técnico. ⚙️\n 😎¡DISFRUTA!😎",
+    "Sms": "https://raw.githubusercontent.com/Cerebrocol/Netcol/main/sms",
+    "UrlUpdate": "https://raw.githubusercontent.com/Cerebrocol/Netcol/main/App",
+    "EmailFeedback": "",
+    "UrlContato": "",
+    "UrlTermos": "",
+    "CheckUser": "true",
+    "Udp": [
+        {
+      "Porta": "7100"
+    },
+    {
+      "Porta": "7200"
+    },
+    {
+      "Porta": "7300"
+    },
+    {
+      "Porta": "7400"
+    },
+    {
+      "Porta": "7500"
+        }
+    ],
+    "Servers": [
+        {
+            "Name": "SERVIDOR 1",
+            "TYPE": "premium",
+            "FLAG": "br.png",
+            "ServerIP": "66.90.89.92",
+            "CheckUser": "http://66.90.89.92:5454/checkUser",
+            "ServerPort": "22",
+            "SSLPort": "443",
+            "USER": "",
+            "PASS": ""
+        }
+    ],
+    "Networks": [
+        {
+      "Name": "SELECCIONA TU OPERADOR",
+      "FLAG": "",
+      "Payload": "",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Ssl"
+   },
+    {
+      "Name":  "⚠️VERSIÓN 1.0.1⚠️",
+      "FLAG": "",
+      "Payload": "",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Ssl"
+   },
+    {
+      "Name": "❤️CLARO REDES🇨🇴",
+      "FLAG": "claro",
+      "Payload": "GET / HTTP/1.1[crlf]Host: f.cerebro.tk[crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "f.cerebro.tk",
+      "TlsIP": "appboy-images.com",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+   },
+    {
+      "Name": "❤️MOVISTAR 2🇨🇴",
+      "FLAG": "ic_tim",
+      "Payload": "GET / HTTP/1.1[crlf]Host: d2ij1k9mm0qc53.cloudfront.net[crlf]Connection: Upgrade HTTP2-Settings > Upgrade: h2c[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "d2ij1k9mm0qc53.cloudfront.net",
+      "TlsIP": "13.227.19.200",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+   },
+    {
+      "Name": "❤️MOVISTAR 3🇨🇴",
+      "FLAG": "ic_tim",
+      "Payload": "GET / HTTP/1.1[crlf]Host: f.cerebro.tk[crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "f.cerebro.tk",
+      "TlsIP": "docs.epayco.co",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+   },
+    {
+      "Name": "❤️MOVISTAR REDES🇨🇴",
+      "FLAG": "ic_tim",
+      "Payload": "",
+      "SNI": "whatsapp.net",
+      "TlsIP": "f.cerebro.tk",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Ssl"
+   },
+    {
+      "Name": "❤️TIGO 1🇨🇴",
+      "FLAG": "ic_oi",
+      "Payload": "GET / HTTP/1.1[crlf]Host: d2ij1k9mm0qc53.cloudfront.net[crlf]Connection: Upgrade HTTP2-Settings > Upgrade: h2c[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "d2ij1k9mm0qc53.cloudfront.net",
+      "TlsIP": "18.155.248.13",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+   },
+    {
+      "Name": "❤️TIGO 2🇨🇴",
+      "FLAG": "ic_oi",
+      "Payload": "GET / HTTP/1.1[crlf]Host: d2ij1k9mm0qc53.cloudfront.net[crlf]Connection: Upgrade HTTP2-Settings > Upgrade: h2c[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "d2ij1k9mm0qc53.cloudfront.net",
+      "TlsIP": "143.204.23.76",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+   },
+    {
+      "Name": "❤️TIGO 3🇨🇴",
+      "FLAG": "ic_oi",
+      "Payload": "GET / HTTP/1.1[crlf]Host: f.cerebro.tk[crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "f.cerebro.tk",
+      "TlsIP": "cdn.todo1.com",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+   },
+   {
+      "Name": "❤️TIGO 4🇨🇴",
+      "FLAG": "ic_oi",
+      "Payload": "GET / HTTP/1.1[crlf]Host: f.cerebro.tk[crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "f.cerebro.tk",
+      "TlsIP": "zendesk.medallia.com",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+   },
+    {
+      "Name": "❤️WOM REDES🇨🇴",
+      "FLAG": "ic_vivo",
+      "Payload": "GET / HTTP/1.1[crlf]Host: f.cerebro.tk[crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "f.cerebro.tk",
+      "TlsIP": "investors.spotify.com",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+   }
+  ]
+}
